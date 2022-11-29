@@ -1,0 +1,69 @@
+/*font family*/
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 1050px;
+}
+/*limpiar los efectos nativos de las etiquetas*/
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+header{
+    background-color: red;
+}
+
+.navbar div{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    height: 80px;
+    background-color: #f9f9f9;
+
+}
+
+.navbar a{
+    font-size: 14px;
+    line-height: 80px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0 10px;
+    letter-spacing: 2px;
+}
+
+.contenedor-imagen{
+    height: 100vh;
+}
+
+.contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+/* comienza main */
+
+.contenido{
+    position: absolute;
+    right: 0;
+    left: 25%;    
+}
+.contenido h2{
+    text-align: center;
+    color: brown;
+}
+
+.contenedor{
+    position: relative;
+    height: 100%;
+}
