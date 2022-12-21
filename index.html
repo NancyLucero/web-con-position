@@ -4,70 +4,302 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Document</title>
+    <title>PortfolioNL</title>
 </head>
 <body>
-    <!-- realice el header-->
-    <header>
-        <h2>Hola mundo</h2>
+    <!-- ==============  HEADER =================-->
+    <header class="colorletra">
+        <h2>NANCY</h2>
         <nav class="navbar"> 
             <div>
                 <a href="#">Inicio</a>
-                <a href="#">Articulos</a>
-                <a href="#">Compania</a>
-                <a href="#">Contacto</a>                
+                <a href="#pag2">Intereses</a>
+                <a href="#pag3">Servicios</a>
+                <a href="#pag4">Resumen</a>
+                <a href="#pag5">Portfolio</a> 
+                <a href="#pag6">Contacto</a>                
             </div>
-        </nav>
-        <div class="contenedor-imagen">
-            <img src="img/morfo.jpg" alt="">
+        </nav>   
+        <div>     
+            <a href="https://www.facebook.com/nancydelcarmen.lucero" target="_blank"><i class="bi bi-facebook cssredes"></i></a>
+            <a href="https://www.facebook.com/nancydelcarmen.lucero" target="_blank"><i class="bi bi-instagram cssredes"></i></a>
+            <a href="https://www.linkedin.com/in/nancy-del-carmen-lucero-63566351" target="_blank"><i class="bi bi-linkedin cssredes"></i></a>
         </div>
     </header>
-
     <main>
-        <!-- comienza el sector de temas -->
-        <div class="contenedor">
-            <div class="derecha">
-                <h2>Temas</h2>
-                <nav class="indice">
-                    <a href="">Articulo #1</a>
-                    <a href="">Articulo #2</a>
-                    <a href="">Articulo #3</a>
-                    <a href="">Articulo #4</a>
-                    <a href="">Articulo #5</a>            
-                </nav>
+        <!-- ==============  PRIMERA PAGINA =================-->
+        <section class="hero">
+            <div class="medidasdiv1 alineaciondiv1">
+                <div class="">
+                    <h2 class="interlineado">HOLA, SOY UNA FREELANCER</h2>
+                    <p class="bordeTitulo"><strong>DESARROLLADORA</strong></p> 
+                    <h3 class="interlineado">Salta Argentina</h3>
+                </div>
+                <div class="botoneshero">
+                    <a href="#pag5"><button class="boton1">Mis Trabajos</button></a>
+                    <a href="#pag6"><button class="boton2">Contacto</button></a>
+                    <span class="material-symbols-outlined flecha">
+                        expand_circle_down
+                        </span>
+                </div>
             </div>
-        </div>
-        <div class="contenido">
-            <h1>Articulos</h1>
-            <div class="nota">
-                <h2>Articulo #1</h2>
-                <p class="fecha">Publicado el 29 de noviembre del 2022</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente a reiciendis, quis magni facilis expedita totam saepe quos inventore, delectus unde porro. Quas tenetur consectetur sunt obcaecati neque alias.
-                Quas laborum maiores possimus quibusdam aliquid, pariatur nisi cupiditate laboriosam aspernatur aperiam corrupti vero dolore inventore facere maxime provident ab totam. Ullam nemo dicta laboriosam vel voluptas dolore distinctio nisi.
-                Ipsam repudiandae obcaecati mollitia dolores, non repellendus dicta quidem? Deserunt, atque perferendis consequatur, quidem omnis ratione commodi assumenda, ut facilis numquam molestias quas vitae? Tenetur, assumenda debitis? Veritatis, corrupti nemo.
-                Qui accusamus maiores nemo ipsam necessitatibus. Architecto alias ullam atque animi aliquid dolore amet, nulla, beatae inventore, aperiam assumenda fuga odio. Dolorem architecto quasi consequuntur ea ad reprehenderit officiis commodi.
-                Porro blanditiis consequuntur quia similique molestias aut? Unde nesciunt aperiam consequuntur, sit id voluptatibus suscipit explicabo placeat. Unde, culpa. Reprehenderit saepe facere repudiandae recusandae provident assumenda quisquam id praesentium eum?
-                </p>
+            <div class="medidasdiv1 alineacionimg" >
+                <img src="img/perfil.jpg" alt="" class="perfil">
             </div>
-            <div class="nota">
-                <h2>Articulo #2</h2>
-                <p class="fecha">Publicado el 29 de noviembre del 2022</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente a reiciendis, quis magni facilis expedita totam saepe quos inventore, delectus unde porro. Quas tenetur consectetur sunt obcaecati neque alias.
-                Quas laborum maiores possimus quibusdam aliquid, pariatur nisi cupiditate laboriosam aspernatur aperiam corrupti vero dolore inventore facere maxime provident ab totam. Ullam nemo dicta laboriosam vel voluptas dolore distinctio nisi.
-                Ipsam repudiandae obcaecati mollitia dolores, non repellendus dicta quidem? Deserunt, atque perferendis consequatur, quidem omnis ratione commodi assumenda, ut facilis numquam molestias quas vitae? Tenetur, assumenda debitis? Veritatis, corrupti nemo.
-                Qui accusamus maiores nemo ipsam necessitatibus. Architecto alias ullam atque animi aliquid dolore amet, nulla, beatae inventore, aperiam assumenda fuga odio. Dolorem architecto quasi consequuntur ea ad reprehenderit officiis commodi.
-                Porro blanditiis consequuntur quia similique molestias aut? Unde nesciunt aperiam consequuntur, sit id voluptatibus suscipit explicabo placeat. Unde, culpa. Reprehenderit saepe facere repudiandae recusandae provident assumenda quisquam id praesentium eum?
-                </p>
-            </div>
-        </div>
-    </main>
+        </section>
 
-    <!-- comienza el footer -->
-    <footer>
-        <div class="contenedor-imagen">
-            <img src="manzara.jpg" alt="">
-        </div>
+         <!-- ==============  SEGUNDA PAGINA =================-->
+        <section id="pag2" class="margentitulo">
+            <section class="sec1">
+                <div class="caja1 espaciadotop">
+                    <p class="relleno">Sobre mí</p>            
+                </div>
+                <div class="caja1 espaciadointer">
+                    <p class="tamsubtit negrita">Biografia en 6 renglones</p>
+                </div>
+            </section>
+            <div class="columna">                
+                    <div class="parraforesumen">
+                        <h4 class="negrita subtitul tamtit3">Soy Nancy Lucero</h4>
+                        <p class="subtitulo">Ingeniera en Computación, Técnica en Informática y Profesora en Informática, actualmente 
+                            profesora de materias de carreras de Ingeniería Civil, Informática, Industrial y Telecomunicaciones. Docente universitario 
+                            desde 1996. Se desempeña actualmente como Programadora y Capacitadora Informática en 
+                            Ente Regulador de los Juegos de Azar, además capacitadora, evaluadora y formadora en el 
+                            ambiente de la Universidad Católica de Salta y Organismos Privados.</p>
+                    </div>
+                    <div class="parraforesumen1">
+                        <p class="numerogrande">25</p>
+                        <hr class="circulo">
+                        <p class="experiencia negrita">Años de Experiencia</p>    
+                    </div>                
+            </div>            
+            <section>
+                <div class="section1_3p">
+                    <div>
+                        <p>Nombre:</p>
+                        <p><strong>Nancy Lucero</strong></p>
+                    </div>
+                    <div>
+                        <p>Mail:</p>
+                        <p><strong>nancylucero23@gmail.com</strong></p>
+                    </div>
+                    <div>
+                        <p>Nacimiento:</p>
+                        <p><strong>23 Octubre,1972</strong></p>
+                    </div>
+                    <div>
+                        <p>De:</p>
+                        <p><strong>Salta, Argentina</strong></p>
+                    </div>
+                </div>            
+            </section>
+        </section>
+        <!-- ==============  TERCERA PAGINA =================-->
+        <section id="pag3" class="fondogris margentitulo">   
+            <section class="sec1 fondogris">
+                <div class="caja1 espaciadotop">
+                    <p class="relleno">Experticia en...</p>            
+                </div>
+                <div class="caja1 espaciadointer">
+                    <p class="tamsubtit negrita">Conoce mis habilidades destadas</p>
+                </div>
+            </section>                               
+            <div class="padrePagina2">
+                <div class="estiloDivPag2">
+                    <i class="bi bi-boxes iPag2"></i>
+                    <p class="titulo1 subtitulo">Inteligencia Artificial</p>
+                    <p class="parrafo subtitulo">Introducción de Algoritmos Geneticos y Redes Neuronales</p>
+                </div>
+                <div class="estiloDivPag2">
+                    <i class="bi bi-bank iPag2"></i>
+                    <p class="titulo1 subtitulo">Banco Macro</p>
+                    <p class="parrafo subtitulo">Capacitacion a agentes del banco</p>
+                </div>
+                <div class="estiloDivPag2">
+                    <i class="bi bi-boombox iPag2"></i>
+                    <p class="titulo1 subtitulo">FlowCode</p>
+                    <p class="parrafo subtitulo">Programación de MicroControladores PIC</p>
+                </div>
+                <div class="estiloDivPag2">
+                    <i class="bi bi-broadcast iPag2"></i>
+                    <p class="titulo1 subtitulo">Conectividad</p>
+                    <p class="parrafo subtitulo">Instalacion de redes y wireless</p>
+                </div>
+                <div class="estiloDivPag2">
+                    <i class="bi bi-people iPag2"></i>
+                    <p class="titulo1 subtitulo">Manejo de Grupo</p>
+                    <p class="parrafo subtitulo">Planeacion de proyectos de desarrollo de software</p>
+                </div>
+                <div class="estiloDivPag2">
+                    <i class="bi bi-hospital iPag2"></i>
+                    <p class="titulo1 subtitulo">Hospital y Clinicas</p>
+                    <p class="parrafo subtitulo">Soporte tecnico a organismos de salud</p>
+                </div>
+            </div>            
+        </section>
+
+        <!-- ==============  CUARTA PAGINA =================-->
+        <section id="pag4" class="margentitulo">
+            <section class="sec11">
+                <div class="caja1 espaciadotop">
+                    <p class="relleno">CVar</p>            
+                </div>
+                <div class="caja1 espaciadointer">
+                    <p class="tamsubtit negrita subir">Resumen</p>
+                </div>
+            </section>
+            <section class="columna1 subir">
+                <div class="parraforesumen11">
+                    <p class="subtitulo tamtit3">Mi Educacion</p>
+                    <p class="titulo1 bordeTitulo1">Tecnica en Informática</p> 
+                    <p class="bordeTitulo1">UCSE - 1996</p> 
+                    <p class="subtitulo bordeTitulo1">Universidad Catolica de Santiago del Estero</p> 
+                    
+                    <p class="titulo1 bordeTitulo1">Ingeniera en Computacion</p> 
+                    <p class="bordeTitulo1">UCSE - 2003</p> 
+                    <p class="subtitulo bordeTitulo1">Universidad Catolica de Santiago del Estero</p> 
+                    
+                    <p class="titulo1 bordeTitulo1">Profesora en Informática</p> 
+                    <p class="bordeTitulo1">UCASAL - 2013</p> 
+                    <p class="subtitulo  bordeTitulo1">Universidad Catolica de Salta</p> 
+                </div>
+                <div class="parraforesumen11">
+                    <p class="subtitulo tamtit3">Mi Experiencia</p>
+                    <p class="titulo1 bordeTitulo1">Docente Universitaria</p> 
+                    <p class="bordeTitulo1">1996 hasta la fecha</p> 
+                    <p class="subtitulo bordeTitulo1">Universidad Catolica de Salta</p> 
+                   
+                    <p class="titulo1 bordeTitulo1">Capacitadora en TIC</p> 
+                    <p class="bordeTitulo1">2000 - 2013</p> 
+                    <p class="subtitulo bordeTitulo1">Organismos publicos y privados</p> 
+                    
+                    <p class="titulo1 bordeTitulo1">Soporte de desarrollo</p> 
+                    <p class="bordeTitulo1">2017 a la fecha</p> 
+                    <p class="subtitulo bordeTitulo1">Ente Regulador de Juegos de Azar - ENREJA</p> 
+                </div>
+                <p class="habilidades tamtit3">Mis Habilidades</p>
+    
+                <div class="parraforesumen2">
+                    <div class="titpor">
+                        <p>App Web</p>
+                        <p>60%</p>
+                    </div> 
+                    <hr class="base">
+                    <hr class="amarillo60">
+                </div>
+                <div class="parraforesumen2">
+                    <div class="titpor">
+                        <p>App Movil</p>
+                        <p>70%</p>
+                    </div>
+                    <hr class="base">
+                    <hr class="amarillo70">
+                </div>
+                <div class="parraforesumen2">
+                    <div class="titpor">
+                        <p>Ofimatica</p>
+                        <p>80%</p>
+                    </div>
+                    <hr class="base">
+                    <hr class="amarillo80">
+                </div>
+                <div class="parraforesumen2">
+                    <div class="titpor">
+                        <p>TIC</p>
+                        <p>60%</p>
+                    </div>
+                    <hr class="base">
+                    <hr class="amarillo60">
+                </div>
+                <div class="parraforesumen2">
+                    <div class="titpor">
+                        <p>Xamarin</p>
+                        <p>80%</p>
+                    </div>
+                    <hr class="base">
+                    <hr class="amarillo80">
+                </div>
+                <div class="parraforesumen2">
+                    <div class="titpor">
+                        <p>Didactica</p>
+                        <p>80%</p>
+                    </div>
+                    <hr class="base">
+                    <hr class="amarillo80">
+                </div>
+                <div class="tamCV">                    
+                    <a href="https://nancylucero23.azurewebsites.net/cv_nancylucero.aspx" target="_blank"><button class="btndesc">Descargar CV</button></a>
+                </div>
+        </section>
+
+         <!-- ==============  QUINTA PAGINA =================-->
+         
+        <section id="pag5" class="margentitulo">
+            <section class="sec11">
+                <div class="caja1 espaciadotop">
+                    <p class="relleno">Portfolio</p>            
+                </div>
+                <div class="caja1 espaciadointer">
+                    <p class="tamsubtit negrita subir">Conoce algunos de mis proyectos</p>
+                </div>
+                <div class="caja3">
+                    <p class="espaciado">Todos</p>
+                    <p class="espaciado">AppWeb</p>
+                    <p class="espaciado">AppMovil</p>
+                    <p class="espaciado">AppLiga</p>                    
+                </div>
+            </section>
+            <section class="lista">
+                <div class="padrePaginaImg">
+                    <div class="estiloDivImg"><img src="img/perfil.jpg" alt="" class="imagenLista"></div>
+                    <div class="estiloDivImg"><img src="img/perfil.jpg" alt="" class="imagenLista"></div>
+                    <div class="estiloDivImg"><img src="img/perfil.jpg" alt="" class="imagenLista"></div>
+                    <div class="estiloDivImg"><img src="img/perfil.jpg" alt="" class="imagenLista"></div>
+                    <div class="estiloDivImg"><img src="img/perfil.jpg" alt="" class="imagenLista"></div>
+                    <div class="estiloDivImg"><img src="img/perfil.jpg" alt="" class="imagenLista"></div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="pag6" class="hero">
+   
+            <div class="parrafooter">
+                <h2 class="subtitulo">Mantengamos contacto</h2>
+                <p class="subtitulo">
+                    Establezcamos contacto
+                </p>
+                <p class="subtitulo">
+                    Brevemente comentame sobre tus ideas o proyectos
+                </p>
+                
+                <p class="subtitulo">Domicilio</p>
+                <p class="subtitulo">Mendoza 2002 Salta Argentina</p>
+                <p class="subtitulo">Telefono</p>
+                <p class="subtitulo">+594-227778888</p>
+                <div>     
+                    <a href="https://www.facebook.com/nancydelcarmen.lucero"><i class="bi bi-facebook cssredes"></i></a>
+                    <a href="https://www.facebook.com/nancydelcarmen.lucero"><i class="bi bi-instagram cssredes"></i></a>
+                    <a href="https://www.linkedin.com/in/nancy-del-carmen-lucero-63566351"><i class="bi bi-linkedin cssredes"></i></a>
+                </div>
+            </div>
+
+            <div class="parrafooter">
+                <h2>Escribeme sobre tu proyecto</h2>
+                <div class="columna2">
+                    <label>Nombre: </label>
+                    <input type="text" class="ingreso1 bordeTitulo2">            
+                    <label>Mail: </label>
+                    <input type="email" class="ingreso1 bordeTitulo2">
+                    <label>Como podria ayudarte? Coméntame: </label>
+                    <textarea class="subtitulo ingreso1 bordeTitulo2" rows="5" cols="50">                    
+                          </textarea>
+                    <button class="boton1 tamboton">Enviar</button>
+                </div>
+            </div>
+     
     </footer>
 </body>
 </html>
