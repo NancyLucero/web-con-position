@@ -1,69 +1,483 @@
-/*font family*/
-/*selector universal*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-
-main{
-    height: 1050px;
+body{
+    font-family:'Source Sans Pro', sans-serif;
+    background: white;
 }
-/*limpiar los efectos nativos de las etiquetas*/
 
-a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-}
+/*===================== ESTILOS DEL HEADER ==========================*/
 
 header{
-    background-color: red;
-}
-
-.navbar div{
-    width: 800px;
-    margin: 0 auto;
-}
-
-.navbar{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    top:0;
-    height: 80px;
-    background-color: #f9f9f9;
-
+    width: 100%;
+    background: white;
+    
 }
 
 .navbar a{
-    font-size: 14px;
-    line-height: 80px;
-    font-weight: 500;
     padding: 10px 20px;
     margin: 0 10px;
+    text-decoration: none;
+    color:rgb(80, 66, 66);
+}
+.cssredes{
+    color: rgb(80, 66, 66);
+    font-size: 20 px;
+}
+
+.cssredes:hover{
+    color: rgb(151, 73, 73);
+}
+
+.colorletra{
+    color:rgb(80, 66, 66);
+}
+/*===================== ESTILOS DEL HERO==========================*/
+
+h1{
+    font-size: 50px;
+}  
+h2{
+    font-style: normal;
+}
+.bordeTitulo{
+    /*border-right: 5px solid rgb(87, 82, 29);*/
+    font-size:50px;
+    margin: auto;
+    padding: 0;    
     letter-spacing: 2px;
 }
-
-.contenedor-imagen{
-    height: 100vh;
-}
-
-.contenedor-imagen img{
+.hero{
+    display: flex;    
+    justify-content:center;
     width: 100%;
-    height: 100%;
+    background-color: yellow;
+    margin: 0 auto;
+    padding: 80px 0px;
+    
 }
-
-/* comienza main */
-
-.contenido{
-    position: absolute;
-    right: 0;
-    left: 25%;    
+.perfil{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 12px solid white;
+    padding: 0px 0px;
 }
-.contenido h2{
+.interlineado{
+    padding: 20px 0px;
+    margin: 0 3px;
+}
+.botoneshero{
+    display: flex;
+    width: 80%;
+}
+.boton1{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    
+}
+.boton2{
+    margin: 0 20px;
+    border: none;
+    background-color: yellow;
+}
+.medidasdiv1{
+    text-align: left;
+    width: 400px;
+    height: 300px; 
+    padding: 20px 20px; 
+}
+.alineacionimg{
+   text-align: center;
+}
+.alineaciondiv1{
+    padding: 80px 20px; 
+}
+.tamparrafo{
+    width: 350px;
+}
+/*=============================== ESTILOS DE PAGINA 1 ==========================*/
+
+.section1_1p{    
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;   
+    padding: 10px;
+}
+.sombreado1{
+    display: inline-block;
+    font-size: 10px;
+    background: yellow;
+    margin: 20px 612px;
+    padding: 0px 0px;    
+}
+.interlineado1{
+    padding: 0;
+    font-size: 20px;
+    margin: 20px 612px;
+}
+.section1_2p{
+    display: flex;
+    margin: 0 40px;
+    padding: 20px 120px;
+}
+.parrafoS1{
+    width: 100%;
+    padding: 10px 0px;
+    padding-right: 100px;    
+}
+.espaciadopor{    
+    padding-left: 23px;
+}
+.titpor{
+    display: flex;
+    justify-content: space-between;    
+}
+.numerogrande{
+    font-size:100px;
+}
+.parrafoS2{
+    width: 100%;    
     text-align: center;
-    color: brown;
+}
+.section1_3p{
+    display: flex;
+    justify-content:space-around;
+    width: 70%;
+    margin: 0 160px;
+    padding: 0px 0px 38px 0px;
+    font-size: 12px;
+}
+.fecha {
+    margin: 0 auto;
+    font-size: 5px;
+}
+.fondoblanco{
+    background: white;
+}
+.sec1{
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    margin: 37px auto;
+    padding: 0px 0px;
+}
+.caja1{
+    width: 1200px;
+    height: 25px;
+}
+.relleno{
+    display: inline-block;
+    background: yellow;
+}
+.negrita{
+    font-weight: bold;
+}
+.espaciadotop{   
+    margin: 0 auto;
+    padding: 20px 0px;
 }
 
-.contenedor{
-    position: relative;
-    height: 100%;
+.espaciadointer{
+    margin: 0;
+    padding-top: 0px;
+}
+.columna{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 150px;
+    display: flex;    
+    flex-direction: row;
+    justify-content:center;    
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;  
+}
+.parraforesumen{
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 560px;
+    height: 300px; 
+    padding-left: 0px;
+}
+
+.parraforesumen1{
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 200px;
+    height: 300px; 
+    padding-left: 0px;
+}
+.parraforesumen2{
+    text-align: left;
+    width: 400px;
+    height: 35px; 
+    margin: 0px auto;
+    padding-left: 0px;    
+}
+.parrafo1{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    height: 300px; 
+}
+
+/*============================ ESTILOS DE PAGINA 2 ==========================*/
+
+.sectionPag2{
+    background:rgb(235, 230, 230);    
+    width: 100%;  
+   
+}
+.fondoPag2{    
+    margin: 0 auto;    
+    text-align: center;
+}
+.sombreado2{    
+    width: 5%;
+    font-size: 10px;
+    background: yellow;
+    display: inline-block;
+    margin: 20px 600px;
+    padding: 0px 0px; 
+}
+
+.fondogris{
+    background:rgb(235, 230, 230);
+}
+.padrePagina2{
+    width: 75%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    margin: 0 auto; 
+    padding: 50px 50px;       
+    
+}
+.titulo1{
+    font-weight: bold;
+    color: rgb(61, 56, 56);
+}
+.parrafo{
+   color:grey;
+}
+.iPag2{
+    color: rgb(240, 218, 20);
+    align-content: center;
+    font-size: 50px;
+}
+.estiloDivPag2{
+        width: 250px;
+        height: 150px;
+        text-align: center;        
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 30px;        
+}
+.circulo{
+    width: 55px;
+    height: 55px;
+    border: 0;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: -75px 0px 0px 20px;
+    padding: 0px;
+}
+.experiencia{
+    margin: 11px -17px;
+    padding: 0px 0px;
+}
+.subtitulo{
+    line-height:30px;
+    margin: 0 auto;
+    padding: 0px 0px;   
+}
+.margentitulo{
+    margin: 95px auto;
+    padding: 1px 0px;
+}
+.tamsubtit{
+    margin: 0 auto;
+    font-size: 30px;
+}
+.tamtit3{
+    font-size: 25px;
+    line-height:50px;
+}
+img:hover{
+    opacity: 0.7;
+}
+/*============================ ESTILOS DE PAGINA 4 ==========================*/
+.base{
+    width: 382px;
+    height: 5px;
+    border: 0;
+    background-color: rgb(50, 50, 47);
+    margin: 0;
+    padding-right: 15px;
+}
+.amarillo60{
+    width: 216px;
+    height: 5px;
+    border: 0;
+    background-color: yellow;
+    margin: -5px;
+    padding: 0px;
+}
+.amarillo70{
+    width: 236px;
+    height: 5px;
+    border: 0;
+    background-color: yellow;
+    margin: -5px;
+    padding: 0px;
+}
+.amarillo80{
+    width: 260px;
+    height: 5px;
+    border: 0;
+    background-color: yellow;
+    margin: -5px;
+    padding: 0px;
+}
+.tamCV{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+.habilidades{
+    width: 1200px;
+    height: 20px;
+    padding: 35x 42px;
+    margin: 30px 47px;
+}
+.parraforesumen11{
+    text-align: left;
+    width: 440px;
+    height: 272px; 
+    margin:0 auto;
+    padding-left: 23px;    
+}
+.subir{
+    margin: -15px 0px;
+}
+.bordeTitulo1{
+    border-left: 5px solid rgb(87, 82, 29);
+    padding-left: 10px;    
+}
+.columna1{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 170px;
+    display: flex;    
+    flex-direction: row;
+    justify-content:center;    
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;  
+}
+.sec11{
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    margin: 15px auto;
+    padding: 0px 0px;
+}
+.btndesc{
+    background: white;
+    border: 3px solid rgb(118, 107, 107);
+    padding: 7px 12px;
+}
+.tamCV{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.izq{
+    margin: 30px auto;
+}
+/*============================== ESTILOS PAGINA 5 ========================*/
+.caja3{
+    display: flex;    
+    justify-content:center;
+    text-align: center;
+    flex-wrap:wrap;     
+ }
+ .espaciado{
+    padding-left: 35px;
+ }
+ .padrePaginaImg{
+    margin: 0 auto;
+    padding: 0px 40px;
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    flex-wrap:wrap;    
+}
+.imagenLista{
+    width: 210px;
+    height: 200px;    
+    padding: 0px 0px;
+}
+.estiloDivImg{
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 67px;
+    padding: 0px 0px;
+}
+.lista{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 140px;
+}
+/*=========== FOOTER ===========*/
+.amarillofot{
+    width: 80%;
+    background: yellow;
+}
+.parrafooter{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 364px;
+    height: 300px; 
+    padding-left: 36px;
+}
+.columna2{
+    display: flex;
+    flex-direction: column;    
+    text-align:left;
+}
+.ingreso1{
+    border: none;
+    background: yellow;
+}
+.tamboton{
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    width: 40%;
+    align-items: flex-end;
+}
+.bordeTitulo2{
+    border-bottom: 3px solid rgb(87, 82, 29);
+    padding-left: 10px;    
 }
