@@ -1,4 +1,5 @@
 # Ingeniera en Computación, Técnica en Informática y Profesora en Informática
+Biografia en 6 renglones:
 Actualmente profesora adjunta de la materia Fundamentos de Informática de las carreras de Ingeniería Civil, 
 Industrial, Informática y Telecomunicaciones; Lenguajes 3 y 4 de la carrera de Ingeniería en 
 Informática; Informática 2 de la carrera de Licenciatura en Criminalística. Docente universitario 
